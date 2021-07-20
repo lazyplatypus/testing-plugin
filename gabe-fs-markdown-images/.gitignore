@@ -67,7 +67,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-yarn.lock
 
 generated_articles
 generated_images
