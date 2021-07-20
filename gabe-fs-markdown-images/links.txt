@@ -1,0 +1,93 @@
+{"copyChunk":"success open and validate gatsby-configs, load plugins - 1.425s"}
+{"copyChunk":"info gatsby-plugin-benchmark-reporting: Will post benchmark data to: https://metric-api.newrelic.com/metric/v1"}
+{"copyChunk":"success onPreInit - 0.064s"}
+{"copyChunk":"success initialize cache - 0.043s"}
+{"copyChunk":"Error: Request failed with status code 403    - createError.js:16 createError    [gabe-fs-markdown-images]/[axios]/lib/core/createError.js:16:15    - settle.js:17 settle    [gabe-fs-markdown-images]/[axios]/lib/core/settle.js:17:12    - http.js:260 IncomingMessage.handleStreamEnd    [gabe-fs-markdown-images]/[axios]/lib/adapters/http.js:260:11    - readable.js:1327 endReadableNT    internal/streams/readable.js:1327:12    - task_queues.js:80 processTicksAndRejections    internal/process/task_queues.js:80:21  "}
+{"copyChunk":"not finished copy gatsby files - 0.144s"}
+{"copyChunk":"Error: This is process.exit(); Benchmark plugin has not completely flushed yet    - gatsby-node.js:446 process.<anonymous>    [gabe-fs-markdown-images]/[gatsby-plugin-newrelic-test]/gatsby-node.js:446:6    0    - index.js:155 processEmit    [gabe-fs-markdown-images]/[signal-exit]/index.js:155:35    - sourcemap-register.js:926 process.emit    [gabe-fs-markdown-images]/[@turist]/fetch/dist/sourcemap-register.js:926:21    - index.js:1 process.wi [as emit]    [gabe-fs-markdown-images]/[create-gatsby]/lib/index.js:1:90002    - per_thread.js:169 process.exit    internal/process/per_thread.js:169:15    - reporter.js:88 Reporter.panic    [gabe-fs-markdown-images]/[gatsby-cli]/lib/reporter/reporter.js:88:22    - index.js:79 process.<anonymous>    [gabe-fs-markdown-images]/[gatsby-cli]/lib/index.js:79:21    - index.js:161 processEmit    [gabe-fs-markdown-images]/[signal-exit]/index.js:161:32    - sourcemap-register.js:926 process.emit    [gabe-fs-markdown-images]/[@turist]/fetch/dist/sourcemap-register.js:926:21    - index.js:1 process.wi [as emit]    [gabe-fs-markdown-images]/[create-gatsby]/lib/index.js:1:90114    - promises.js:245 processPromiseRejections    internal/process/promises.js:245:33    - task_queues.js:94 processTicksAndRejections    internal/process/task_queues.js:94:32  "}
+{"copyChunk":"success open and validate gatsby-configs, load plugins - 1.263s"}
+{"copyChunk":"info gatsby-plugin-benchmark-reporting: Will post benchmark data to: https://metric-api.newrelic.com/metric/v1"}
+{"copyChunk":"success onPreInit - 0.065s"}
+{"copyChunk":"success initialize cache - 0.041s"}
+{"copyChunk":"success copy gatsby files - 0.127s"}
+{"copyChunk":"verbose 4.606432789 Attaching functions to development server"}
+{"copyChunk":"success Compiling Gatsby Functions - 0.396s"}
+{"copyChunk":"success onPreBootstrap - 0.420s"}
+{"copyChunk":"verbose 5.047680407 Creating 5 worker"}
+{"copyChunk":"success createSchemaCustomization - 0.016s"}
+{"copyChunk":"verbose 8.862297984 Checking for deleted pages"}
+{"copyChunk":"verbose 8.864186743 Deleted 0 pages"}
+{"copyChunk":"verbose 8.865605508 Found 0 changed pages"}
+{"copyChunk":"success Checking for changed pages - 0.003s"}
+{"copyChunk":"success source and transform nodes - 3.747s"}
+{"copyChunk":"success building schema - 0.629s"}
+{"copyChunk":"success createPages - 0.131s"}
+{"copyChunk":"success createPagesStatefully - 0.046s"}
+{"copyChunk":"info Total nodes: 2597, SitePage nodes: 515 (use --verbose for breakdown)"}
+{"copyChunk":"verbose 9.690345419 Number of node types: 8. Nodes per type: Directory: 2, File: 1024, ImageSharp: 512, MarkdownRemark: 512, Site: 1, SiteBuildMetadata: 1, SitePage: 515, SitePlugin: 30"}
+{"copyChunk":"verbose 9.690792629 Checking for deleted pages"}
+{"copyChunk":"verbose 9.691369388 Deleted 0 pages"}
+{"copyChunk":"verbose 9.692063849 Found 515 changed pages"}
+{"copyChunk":"success Checking for changed pages - 0.001s"}
+{"copyChunk":"success update schema - 0.084s"}
+{"copyChunk":"success onPreExtractQueries - 0.000s"}
+{"copyChunk":"success extract queries from components - 1.215s"}
+{"copyChunk":"success write out redirect data - 0.006s"}
+{"copyChunk":"success onPostBootstrap - 0.001s"}
+{"copyChunk":"info bootstrap finished - 11.014s"}
+{"copyChunk":"success run page queries - 40.351s - 515/515 12.76/s"}
+{"copyChunk":"success write out requires - 0.027s"}
+{"copyChunk":"success Building production JavaScript and CSS bundles - 8.652s"}
+{"copyChunk":"success Rewriting compilation hashes - 0.015s"}
+{"copyChunk":"success Writing page-data.json files to public directory - 0.420s - 515/515 1226.41/s"}
+{"copyChunk":"success Building HTML renderer - 1.633s"}
+{"copyChunk":"success Building static HTML for pages - 0.794s - 515/515 648.61/s"}
+{"copyChunk":"info Flushing benchmark data to remote server..."}
+{"copyChunk":"Error: timeout of 5000ms exceeded    - createError.js:16 createError    [gabe-fs-markdown-images]/[axios]/lib/core/createError.js:16:15    - http.js:280 RedirectableRequest.handleRequestTimeout    [gabe-fs-markdown-images]/[axios]/lib/adapters/http.js:280:16    - index.js:166 Timeout._onTimeout    [gabe-fs-markdown-images]/[follow-redirects]/index.js:166:12    - timers.js:554 listOnTimeout    internal/timers.js:554:17    - timers.js:497 processTimers    internal/timers.js:497:7  "}
+{"copyChunk":"not finished Caching JavaScript and CSS webpack compilation - 9.965s"}
+{"copyChunk":"not finished Caching HTML renderer compilation - 7.727s"}
+{"copyChunk":"not finished onPostBuild - 6.906s"}
+{"copyChunk":"Error: This is process.exit(); Benchmark plugin has not completely flushed yet    - gatsby-node.js:446 process.<anonymous>    [gabe-fs-markdown-images]/[gatsby-plugin-newrelic-test]/gatsby-node.js:446:6    0    - index.js:155 processEmit    [gabe-fs-markdown-images]/[signal-exit]/index.js:155:35    - sourcemap-register.js:926 process.emit    [gabe-fs-markdown-images]/[@turist]/fetch/dist/sourcemap-register.js:926:21    - index.js:1 process.wi [as emit]    [gabe-fs-markdown-images]/[create-gatsby]/lib/index.js:1:90002    - per_thread.js:169 process.exit    internal/process/per_thread.js:169:15    - reporter.js:88 Reporter.panic    [gabe-fs-markdown-images]/[gatsby-cli]/lib/reporter/reporter.js:88:22    - index.js:79 process.<anonymous>    [gabe-fs-markdown-images]/[gatsby-cli]/lib/index.js:79:21    - index.js:161 processEmit    [gabe-fs-markdown-images]/[signal-exit]/index.js:161:32    - sourcemap-register.js:926 process.emit    [gabe-fs-markdown-images]/[@turist]/fetch/dist/sourcemap-register.js:926:21    - index.js:1 process.wi [as emit]    [gabe-fs-markdown-images]/[create-gatsby]/lib/index.js:1:90114    - promises.js:245 processPromiseRejections    internal/process/promises.js:245:33    - task_queues.js:94 processTicksAndRejections    internal/process/task_queues.js:94:32  "}
+{"copyChunk":"success open and validate gatsby-configs, load plugins - 1.126s"}
+{"copyChunk":"info gatsby-plugin-benchmark-reporting: Will post benchmark data to: https://metric-api.newrelic.com/metric/v1"}
+{"copyChunk":"success onPreInit - 0.065s"}
+{"copyChunk":"success initialize cache - 0.047s"}
+{"copyChunk":"success copy gatsby files - 0.122s"}
+{"copyChunk":"verbose 4.443019244 Attaching functions to development server"}
+{"copyChunk":"success Compiling Gatsby Functions - 0.312s"}
+{"copyChunk":"success onPreBootstrap - 0.340s"}
+{"copyChunk":"verbose 4.795262857 Creating 5 worker"}
+{"copyChunk":"success createSchemaCustomization - 0.015s"}
+{"copyChunk":"verbose 8.193884834 Checking for deleted pages"}
+{"copyChunk":"verbose 8.199325213 Deleted 0 pages"}
+{"copyChunk":"verbose 8.205449451 Found 0 changed pages"}
+{"copyChunk":"success Checking for changed pages - 0.020s"}
+{"copyChunk":"success source and transform nodes - 3.355s"}
+{"copyChunk":"success building schema - 0.806s"}
+{"copyChunk":"success createPages - 0.146s"}
+{"copyChunk":"success createPagesStatefully - 0.048s"}
+{"copyChunk":"info Total nodes: 2597, SitePage nodes: 515 (use --verbose for breakdown)"}
+{"copyChunk":"verbose 9.262399433 Number of node types: 8. Nodes per type: Directory: 2, File: 1024, ImageSharp: 512, MarkdownRemark: 512, Site: 1, SiteBuildMetadata: 1, SitePage: 515, SitePlugin: 30"}
+{"copyChunk":"verbose 9.262927011 Checking for deleted pages"}
+{"copyChunk":"verbose 9.263546298 Deleted 0 pages"}
+{"copyChunk":"verbose 9.264485127 Found 515 changed pages"}
+{"copyChunk":"success Checking for changed pages - 0.001s"}
+{"copyChunk":"success update schema - 0.081s"}
+{"copyChunk":"success onPreExtractQueries - 0.000s"}
+{"copyChunk":"success extract queries from components - 1.249s"}
+{"copyChunk":"success write out redirect data - 0.004s"}
+{"copyChunk":"success onPostBootstrap - 0.001s"}
+{"copyChunk":"info bootstrap finished - 10.616s"}
+{"copyChunk":"success run page queries - 39.210s - 515/515 13.13/s"}
+{"copyChunk":"success write out requires - 0.007s"}
+{"copyChunk":"success Building production JavaScript and CSS bundles - 5.804s"}
+{"copyChunk":"success Rewriting compilation hashes - 0.011s"}
+{"copyChunk":"success Writing page-data.json files to public directory - 0.319s - 515/515 1613.27/s"}
+{"copyChunk":"success Building HTML renderer - 1.338s"}
+{"copyChunk":"success Building static HTML for pages - 0.628s - 515/515 820.51/s"}
+{"copyChunk":"info Flushing benchmark data to remote server..."}
+{"copyChunk":"Error: timeout of 5000ms exceeded    - createError.js:16 createError    [gabe-fs-markdown-images]/[axios]/lib/core/createError.js:16:15    - http.js:280 RedirectableRequest.handleRequestTimeout    [gabe-fs-markdown-images]/[axios]/lib/adapters/http.js:280:16    - index.js:166 Timeout._onTimeout    [gabe-fs-markdown-images]/[follow-redirects]/index.js:166:12    - timers.js:554 listOnTimeout    internal/timers.js:554:17    - timers.js:497 processTimers    internal/timers.js:497:7  "}
+{"copyChunk":"not finished Caching JavaScript and CSS webpack compilation - 7.655s"}
+{"copyChunk":"not finished Caching HTML renderer compilation - 5.855s"}
+{"copyChunk":"not finished onPostBuild - 5.212s"}
+{"copyChunk":"Error: This is process.exit(); Benchmark plugin has not completely flushed yet    - gatsby-node.js:440 process.<anonymous>    [gabe-fs-markdown-images]/[gatsby-plugin-newrelic-test]/gatsby-node.js:440:6    0    - index.js:155 processEmit    [gabe-fs-markdown-images]/[signal-exit]/index.js:155:35    - sourcemap-register.js:926 process.emit    [gabe-fs-markdown-images]/[@turist]/fetch/dist/sourcemap-register.js:926:21    - index.js:1 process.wi [as emit]    [gabe-fs-markdown-images]/[create-gatsby]/lib/index.js:1:90002    - per_thread.js:169 process.exit    internal/process/per_thread.js:169:15    - reporter.js:88 Reporter.panic    [gabe-fs-markdown-images]/[gatsby-cli]/lib/reporter/reporter.js:88:22    - index.js:79 process.<anonymous>    [gabe-fs-markdown-images]/[gatsby-cli]/lib/index.js:79:21    - index.js:161 processEmit    [gabe-fs-markdown-images]/[signal-exit]/index.js:161:32    - sourcemap-register.js:926 process.emit    [gabe-fs-markdown-images]/[@turist]/fetch/dist/sourcemap-register.js:926:21    - index.js:1 process.wi [as emit]    [gabe-fs-markdown-images]/[create-gatsby]/lib/index.js:1:90114    - promises.js:245 processPromiseRejections    internal/process/promises.js:245:33    - task_queues.js:94 processTicksAndRejections    internal/process/task_queues.js:94:32    - task_queues.js:62 runNextTicks    internal/process/task_queues.js:62:3    - timers.js:494 processTimers    internal/timers.js:494:9  "}
