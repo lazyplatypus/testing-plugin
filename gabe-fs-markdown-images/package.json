@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "bench": "rm -rf generated_articles generated_images; gatsby clean; N=${N:-512} node gen.js; CI=1 node --max_old_space_size=${M:-2}000 node_modules/.bin/gatsby build --open-tracing-config-file ./node_modules/gatsby-plugin-newrelic-test/zipkin-local.js --graphql-tracing --verbose --log-pages",
-    "build": "gatsby build",
+    "build": "rm -rf generated_articles generated_images; gatsby clean; N=${N:-512} node gen.js; CI=1 node --max_old_space_size=${M:-2}000 node_modules/.bin/gatsby build --open-tracing-config-file ./node_modules/gatsby-plugin-newrelic-test/zipkin-local.js --graphql-tracing --verbose --log-pages",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""

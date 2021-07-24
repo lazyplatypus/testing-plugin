@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-transformer-remark`,
-    'gatsby-plugin-image',
+    "gatsby-plugin-image",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,8 +21,15 @@ module.exports = {
         path: `${__dirname}/generated_images`,
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-newrelic-test'
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-newrelic-test",
+      options: {
+        logs: true,
+        traces: false,
+        metrics: true,
+      },
+    },
   ],
-}
+};
