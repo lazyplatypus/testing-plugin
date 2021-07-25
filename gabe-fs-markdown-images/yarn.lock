@@ -5899,10 +5899,10 @@ gatsby-plugin-image@^1.9.0:
     objectFitPolyfill "^2.3.0"
     prop-types "^15.7.2"
 
-gatsby-plugin-newrelic-test@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-newrelic-test/-/gatsby-plugin-newrelic-test-1.0.11.tgz#3d9f66c49b0cfaa44d380ea065c6bf4fd9521d63"
-  integrity sha512-YRietKJHoKpUzXeVielGoZClxq2YXsSHTUdDtarVLTi+A+w7IqxQRrNsikXjaP5L0ErW/dG20hPxx9V8Pt988g==
+gatsby-plugin-newrelic-test@^1.0.18:
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-newrelic-test/-/gatsby-plugin-newrelic-test-1.0.18.tgz#b1807e476bcabd2c8934337108bb7f57e3e67837"
+  integrity sha512-nfdANFnhrHu/+Mm4ODKAfEKxv/Z+I4tCUaQCkjyQnjz5Tr3t7mzVXmKS1hN8PRJiQK6pUpIKfYhXryKTcQksUQ==
   dependencies:
     "@newrelic/winston-enricher" "^1.0.0"
     cross-env "^7.0.3"
@@ -5918,7 +5918,7 @@ gatsby-plugin-newrelic-test@^1.0.11:
     zipkin "^0.22.0"
     zipkin-javascript-opentracing "^3.0.0"
     zipkin-transport-http "^0.22.0"
-    zipkin-transport-newrelic "^0.1.9"
+    zipkin-transport-newrelic "^0.1.11"
 
 gatsby-plugin-page-creator@^3.10.0:
   version "3.10.0"
@@ -13701,10 +13701,10 @@ zipkin-transport-http@^0.22.0:
   dependencies:
     zipkin "^0.22.0"
 
-zipkin-transport-newrelic@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/zipkin-transport-newrelic/-/zipkin-transport-newrelic-0.1.9.tgz#5d65be68dcbd438329262b5ce1501ce0d2739aaa"
-  integrity sha512-xeD9o+brzjyTYAeRWfO5iKyhvdpitqeVyyPbcEpikOq4v5XPk/xxT8mBT21pWSjK2ryjMQKkKL829YmMkf1CuQ==
+zipkin-transport-newrelic@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/zipkin-transport-newrelic/-/zipkin-transport-newrelic-0.1.11.tgz#49f0fc7f292d300ac26c38b109c4c836048ceddf"
+  integrity sha512-61UfSqzDU5JXe8A9IGUUoUnJPaTzYhJu/YxL/8yHropbQIwv3w2l/W76tKAPf2sXJjIZo5mF7s4qWp+AmQoRPw==
   dependencies:
     zipkin "^0.22.0"
 
