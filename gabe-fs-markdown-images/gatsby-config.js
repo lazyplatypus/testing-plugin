@@ -31,8 +31,23 @@ module.exports = {
         SITE_NAME: process.env.SITE_NAME || '',
         staging: true,
         traces: {
-          collectTraces: false,
-        }
+          collectTraces: true,
+          tags: {
+            "ruairi": "douglas"
+          },
+        },
+        logs: {
+          collectLogs: true,
+          tags: {
+            "ruairi": "douglas"
+          },
+        },
+        metrics: {
+          collectMetrics: true,
+          tags: {
+            "ruairi": "douglas"
+          },
+        },
       },
     },
   ],
